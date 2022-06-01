@@ -20,8 +20,7 @@ yay -S --noconfirm mint-y-icons mint-themes rofi-mint-themes xcursor-dmz
 # Config files
 
 cd ~
-mkdir .config
-cd Bspwm/.config
+cd bspwm/.config/
 cp * ~/.config
 cd ~
 
@@ -29,8 +28,6 @@ cd ~
 
 sudo pacman -S --noconfirm sddm
 sudo systemctl enable sddm.service
-sudo systemctl start sddm.service
-
 
 # Installation done
 
