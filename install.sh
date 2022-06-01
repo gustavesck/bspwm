@@ -2,8 +2,7 @@
 
 cd ~
 sudo pacman -Syy
-sudo pacman -S --noconfirm bspwm sxhkd polybar rofi lxappearance picom thunar xfce4-terminal nitrogen firefox \
-nano xorg
+sudo pacman -S --noconfirm bspwm sxhkd polybar rofi lxappearance picom thunar xfce4-terminal nitrogen firefox nano xorg
 
 # Install yay
 
@@ -15,13 +14,13 @@ cd ~
 
 # Install themes
 
-yay -S --noconfirm mint-y-icons mint-themes rofi-mint-themes xcursor-dmz
+yay -S --noconfirm mint-y-icons mint-themes rofi-mint-themes xcursor-dmz nordic-wallpapers-git
 
 # Config files
 
 cd ~
 cd bspwm/.config/
-cp * ~/.config
+cp -r * ~/.config
 cd ~
 
 # Sddm
