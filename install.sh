@@ -14,7 +14,12 @@ cd ~
 
 # Install themes
 
-yay -S --noconfirm mint-y-icons mint-themes rofi-mint-themes xcursor-dmz nordic-wallpapers-git
+yay -S --noconfirm mint-y-icons mint-themes rofi-mint-themes xcursor-dmz nordic-wallpapers-git all-repository-fonts
+
+# Programs
+
+sudo pacman -S --noconfirm xed parole celluloid gnome-calculator xreader drawing rhythmbox vlc keepassxc chromium \
+file-roller qbittorrent p7zip gnome-disk-utility libreoffice jdk-openjdk gvfs simple-scan
 
 # Config files
 
